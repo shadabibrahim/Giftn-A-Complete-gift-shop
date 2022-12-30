@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    width: 200px;
+    position: relative;
+    animation: mymove 5s infinite;
+    color: #FEFFFD;
+    
+  }
+  
+  @keyframes mymove {
+    from {right: 0px;}
+    to {left: 200px;}
+  }
+  #downarrow-logo{
+  height: 30px;
+  width: 30px;
+    
+    
+  }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+  }
+  .horizontally-scroll{
+    overflow-x: scroll;
+  }
+  #card-style :hover{
+    background-color: black;
+    color: white;
+    
+  }
+  #contact{
+   text-align: center;
+  
+  }
+  
+  input{
+    width: 80%;
+    height: 50px;
+  }
+  ::placeholder { 
+    color: white;
+    opacity: 1; 
+    padding: 10px;
+  }
+  #card-style{
+    padding: 5rem;
+    margin: 2rem;
+    width: 65%;
+    height: 35%;
+
+  }
